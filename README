@@ -1,0 +1,28 @@
+This repository contains three implementations of the Quick Sort algorithm,
+meant to be compared for their running speeds on various input sizes and types.
+
+The first implementation, in textbook.c, is the simplest and most commonly found
+on textbooks.
+
+The second, in insertion.c, uses insertion sort for small arrays.
+
+The third, in network.c, uses sorting networks for small arrays.
+
+All three implementations are designed to sort integers and use the same
+simple partitioning algorithm, which can be found in partition.c.
+
+In order to run the tests, just compile:
+
+$ make
+
+And then run the desired test specifying type and size of input:
+
+$ ./network a 1024
+
+The available types of input are:
+(a)scending - an already sorted array of integers;
+(d)escensing - an array of integers sorted in revers;
+(e)quals - an array of zeroes;
+(r)andom - an array of random integers.
+
+For more information, please see:
