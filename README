@@ -21,7 +21,7 @@ $ ./network a 1024
 
 The available types of input are:
 (a)scending - an already sorted array of integers;
-(d)escensing - an array of integers sorted in revers;
+(d)escending - an array of integers sorted in reverse;
 (e)quals - an array of zeroes;
 (r)andom - an array of random integers.
 
@@ -37,4 +37,5 @@ Inside each of these you will find several files, each of the form
 containing the times for the five runs I averaged in my tests.
 
 For more information, please see:
-https://mightaswellhackit.wordpress.com/2011/09/02/fun-with-sorting-networks/
+http://guilherme-pg.com/2011/09/02/Fun-with-sorting-networks.html
+http://guilherme-pg.com/2012/03/27/Sorting-networks-revisited.html
